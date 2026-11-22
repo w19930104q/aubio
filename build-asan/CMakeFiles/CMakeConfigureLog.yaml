@@ -1,0 +1,1580 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.33.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/liiing/work31409/clang 
+      Build flags: -fsanitize=address,undefined;-fno-omit-frame-pointer;-g
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/liiing/feedback/uid32360/build-asan/CMakeFiles/4.4.5/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-ar"
+      - "/home/liiing/.local/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/sbin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/sbin/llvm-ar"
+      - "/bin/llvm-ar"
+      - "/home/liiing/work31409/ar"
+      - "/home/liiing/.local/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-ranlib"
+      - "/home/liiing/.local/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/sbin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/sbin/llvm-ranlib"
+      - "/bin/llvm-ranlib"
+      - "/home/liiing/work31409/ranlib"
+      - "/home/liiing/.local/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-strip"
+      - "/home/liiing/.local/bin/llvm-strip"
+      - "/usr/local/sbin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/sbin/llvm-strip"
+      - "/usr/bin/llvm-strip"
+      - "/sbin/llvm-strip"
+      - "/bin/llvm-strip"
+      - "/home/liiing/work31409/strip"
+      - "/home/liiing/.local/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/ld.lld"
+      - "/home/liiing/.local/bin/ld.lld"
+      - "/usr/local/sbin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+      - "/usr/sbin/ld.lld"
+      - "/usr/bin/ld.lld"
+      - "/sbin/ld.lld"
+      - "/bin/ld.lld"
+      - "/home/liiing/work31409/ld"
+      - "/home/liiing/.local/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-nm"
+      - "/home/liiing/.local/bin/llvm-nm"
+      - "/usr/local/sbin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/sbin/llvm-nm"
+      - "/usr/bin/llvm-nm"
+      - "/sbin/llvm-nm"
+      - "/bin/llvm-nm"
+      - "/home/liiing/work31409/nm"
+      - "/home/liiing/.local/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-objdump"
+      - "/home/liiing/.local/bin/llvm-objdump"
+      - "/usr/local/sbin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/sbin/llvm-objdump"
+      - "/usr/bin/llvm-objdump"
+      - "/sbin/llvm-objdump"
+      - "/bin/llvm-objdump"
+      - "/home/liiing/work31409/objdump"
+      - "/home/liiing/.local/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-objcopy"
+      - "/home/liiing/.local/bin/llvm-objcopy"
+      - "/usr/local/sbin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/sbin/llvm-objcopy"
+      - "/usr/bin/llvm-objcopy"
+      - "/sbin/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/home/liiing/work31409/objcopy"
+      - "/home/liiing/.local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-readelf"
+      - "/home/liiing/.local/bin/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/sbin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/home/liiing/work31409/readelf"
+      - "/home/liiing/.local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-dlltool"
+      - "/home/liiing/.local/bin/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/sbin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/home/liiing/work31409/dlltool"
+      - "/home/liiing/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-addr2line"
+      - "/home/liiing/.local/bin/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/sbin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/home/liiing/work31409/addr2line"
+      - "/home/liiing/.local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/tapi"
+      - "/home/liiing/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.0"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-ar-21.0"
+      - "/home/liiing/.local/bin/llvm-ar-21.0"
+      - "/usr/local/sbin/llvm-ar-21.0"
+      - "/usr/local/bin/llvm-ar-21.0"
+      - "/usr/sbin/llvm-ar-21.0"
+      - "/usr/bin/llvm-ar-21.0"
+      - "/sbin/llvm-ar-21.0"
+      - "/bin/llvm-ar-21.0"
+      - "/home/liiing/work31409/llvm-ar-21"
+      - "/home/liiing/.local/bin/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/sbin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/sbin/llvm-ar-21"
+      - "/bin/llvm-ar-21"
+      - "/home/liiing/work31409/llvm-ar21"
+      - "/home/liiing/.local/bin/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/sbin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/sbin/llvm-ar21"
+      - "/bin/llvm-ar21"
+      - "/home/liiing/work31409/llvm-ar"
+      - "/home/liiing/.local/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/sbin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/sbin/llvm-ar"
+      - "/bin/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.0"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/llvm-ranlib-21.0"
+      - "/home/liiing/.local/bin/llvm-ranlib-21.0"
+      - "/usr/local/sbin/llvm-ranlib-21.0"
+      - "/usr/local/bin/llvm-ranlib-21.0"
+      - "/usr/sbin/llvm-ranlib-21.0"
+      - "/usr/bin/llvm-ranlib-21.0"
+      - "/sbin/llvm-ranlib-21.0"
+      - "/bin/llvm-ranlib-21.0"
+      - "/home/liiing/work31409/llvm-ranlib-21"
+      - "/home/liiing/.local/bin/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/sbin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/sbin/llvm-ranlib-21"
+      - "/bin/llvm-ranlib-21"
+      - "/home/liiing/work31409/llvm-ranlib21"
+      - "/home/liiing/.local/bin/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/sbin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/sbin/llvm-ranlib21"
+      - "/bin/llvm-ranlib21"
+      - "/home/liiing/work31409/llvm-ranlib"
+      - "/home/liiing/.local/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/sbin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/sbin/llvm-ranlib"
+      - "/bin/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.0"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+      - "clang-scan-deps-21.0"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/liiing/work31409/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/work31409/clang-scan-deps-21.0"
+      - "/home/liiing/.local/bin/clang-scan-deps-21.0"
+      - "/usr/local/sbin/clang-scan-deps-21.0"
+      - "/usr/local/bin/clang-scan-deps-21.0"
+      - "/usr/sbin/clang-scan-deps-21.0"
+      - "/usr/bin/clang-scan-deps-21.0"
+      - "/sbin/clang-scan-deps-21.0"
+      - "/bin/clang-scan-deps-21.0"
+      - "/home/liiing/work31409/clang-scan-deps-21"
+      - "/home/liiing/.local/bin/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/sbin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/sbin/clang-scan-deps-21"
+      - "/bin/clang-scan-deps-21"
+      - "/home/liiing/work31409/clang-scan-deps21"
+      - "/home/liiing/.local/bin/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/sbin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/sbin/clang-scan-deps21"
+      - "/bin/clang-scan-deps21"
+      - "/home/liiing/work31409/clang-scan-deps"
+      - "/home/liiing/.local/bin/clang-scan-deps"
+      - "/usr/local/sbin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/sbin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/sbin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+      - "/home/liiing/work31409/clang-scan-deps-21.0"
+      - "/home/liiing/.local/bin/clang-scan-deps-21.0"
+      - "/usr/local/sbin/clang-scan-deps-21.0"
+      - "/usr/local/bin/clang-scan-deps-21.0"
+      - "/usr/sbin/clang-scan-deps-21.0"
+      - "/usr/bin/clang-scan-deps-21.0"
+      - "/sbin/clang-scan-deps-21.0"
+      - "/bin/clang-scan-deps-21.0"
+      - "/home/liiing/work31409/clang-scan-deps-21"
+      - "/home/liiing/.local/bin/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/sbin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/sbin/clang-scan-deps-21"
+      - "/bin/clang-scan-deps-21"
+      - "/home/liiing/work31409/clang-scan-deps21"
+      - "/home/liiing/.local/bin/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/sbin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/sbin/clang-scan-deps21"
+      - "/bin/clang-scan-deps21"
+      - "/home/liiing/work31409/clang-scan-deps"
+      - "/home/liiing/.local/bin/clang-scan-deps"
+      - "/usr/local/sbin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/sbin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/sbin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_179e2
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+        clang version 21.0.0 (https://github.com/swiftlang/llvm-project.git fb5f84d903a3b4e7aea15cd5666598a46f56c833)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin
+        Found candidate GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb -fdebug-compilation-dir=/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8 -v -fcoverage-compilation-dir=/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8 -resource-dir /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /home/liiing/toolchain/sysroot -internal-isystem /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include -internal-isystem /home/liiing/toolchain/sysroot/usr/local/include -internal-isystem /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu -internal-externc-isystem /home/liiing/toolchain/sysroot/include -internal-externc-isystem /home/liiing/toolchain/sysroot/usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fsanitize=address,alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-recover=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,vla-bound -fsanitize-merge=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-system-ignorelist=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -x c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/home/liiing/toolchain/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/home/liiing/toolchain/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include
+         /home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu
+         /home/liiing/toolchain/sysroot/usr/include
+        End of search list.
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined -v -Wl,-v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -o cmTC_179e2   && :
+        clang version 21.0.0 (https://github.com/swiftlang/llvm-project.git fb5f84d903a3b4e7aea15cd5666598a46f56c833)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin
+        Found candidate GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --sysroot=/home/liiing/toolchain/sysroot --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_179e2 /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/lib/../lib64 -L/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/usr/lib64 -L/home/liiing/toolchain/sysroot/lib -L/home/liiing/toolchain/sysroot/usr/lib --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -rpath-link /usr/lib/x86_64-linux-gnu -rpath-link /lib/x86_64-linux-gnu -v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include]
+          add: [/home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu]
+          add: [/home/liiing/toolchain/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include] ==> [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include]
+        collapse include dir [/home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu] ==> [/home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu]
+        collapse include dir [/home/liiing/toolchain/sysroot/usr/include] ==> [/home/liiing/toolchain/sysroot/usr/include]
+        implicit include dirs: [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include;/home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu;/home/liiing/toolchain/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_179e2]
+        ignore line: [[1/2] /home/liiing/work31409/clang   -fsanitize=address undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.0.0 (https://github.com/swiftlang/llvm-project.git fb5f84d903a3b4e7aea15cd5666598a46f56c833)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin]
+        ignore line: [Found candidate GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [clang: warning: -Wl -rpath-link /usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [clang: warning: -Wl -rpath-link /lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb -fdebug-compilation-dir=/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8 -v -fcoverage-compilation-dir=/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-IqaaJ8 -resource-dir /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /home/liiing/toolchain/sysroot -internal-isystem /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include -internal-isystem /home/liiing/toolchain/sysroot/usr/local/include -internal-isystem /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu -internal-externc-isystem /home/liiing/toolchain/sysroot/include -internal-externc-isystem /home/liiing/toolchain/sysroot/usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fsanitize=address alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-recover=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow vla-bound -fsanitize-merge=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-system-ignorelist=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -x c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/home/liiing/toolchain/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/toolchain/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/include]
+        ignore line: [ /home/liiing/toolchain/sysroot/usr/include/x86_64-linux-gnu]
+        ignore line: [ /home/liiing/toolchain/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/liiing/work31409/clang -fsanitize=address undefined -fno-omit-frame-pointer -g -fsanitize=address undefined -v -Wl -v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o -o cmTC_179e2   && :]
+        ignore line: [clang version 21.0.0 (https://github.com/swiftlang/llvm-project.git fb5f84d903a3b4e7aea15cd5666598a46f56c833)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/bin]
+        ignore line: [Found candidate GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --sysroot=/home/liiing/toolchain/sysroot --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_179e2 /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/lib/../lib64 -L/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/usr/lib64 -L/home/liiing/toolchain/sysroot/lib -L/home/liiing/toolchain/sysroot/usr/lib --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -rpath-link /usr/lib/x86_64-linux-gnu -rpath-link /lib/x86_64-linux-gnu -v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --sysroot=/home/liiing/toolchain/sysroot --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_179e2 /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/lib/../lib64 -L/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/usr/lib64 -L/home/liiing/toolchain/sysroot/lib -L/home/liiing/toolchain/sysroot/usr/lib --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -rpath-link /usr/lib/x86_64-linux-gnu -rpath-link /lib/x86_64-linux-gnu -v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --sysroot=/home/liiing/toolchain/sysroot --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_179e2 /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/lib/../lib64 -L/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu -L/home/liiing/toolchain/sysroot/usr/lib64 -L/home/liiing/toolchain/sysroot/lib -L/home/liiing/toolchain/sysroot/usr/lib --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -rpath-link /usr/lib/x86_64-linux-gnu -rpath-link /lib/x86_64-linux-gnu -v CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--sysroot=/home/liiing/toolchain/sysroot] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_179e2] ==> ignore
+          arg [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o]
+          arg [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> dir [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64]
+          arg [-L/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu] ==> dir [/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu]
+          arg [-L/home/liiing/toolchain/sysroot/lib/../lib64] ==> dir [/home/liiing/toolchain/sysroot/lib/../lib64]
+          arg [-L/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu] ==> dir [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu]
+          arg [-L/home/liiing/toolchain/sysroot/usr/lib64] ==> dir [/home/liiing/toolchain/sysroot/usr/lib64]
+          arg [-L/home/liiing/toolchain/sysroot/lib] ==> dir [/home/liiing/toolchain/sysroot/lib]
+          arg [-L/home/liiing/toolchain/sysroot/usr/lib] ==> dir [/home/liiing/toolchain/sysroot/usr/lib]
+          arg [--whole-archive] ==> ignore
+          arg [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a] ==> lib [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a] ==> lib [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--dynamic-list=/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/usr/lib/x86_64-linux-gnu] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/lib/x86_64-linux-gnu] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_179e2.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lrt] ==> lib [rt]
+          arg [-lm] ==> lib [m]
+          arg [-ldl] ==> lib [dl]
+          arg [-lresolv] ==> lib [resolv]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o] ==> obj [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld -m;elf
+        remove lib [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+        remove lib [/home/liiing/swifttc/swift-6.4.2-RELEASE-ubuntu26.04/usr/lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+        collapse library dir [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> [/home/liiing/toolchain/sysroot/usr/lib64]
+        collapse library dir [/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu] ==> [/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/toolchain/sysroot/lib/../lib64] ==> [/home/liiing/toolchain/sysroot/lib64]
+        collapse library dir [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu] ==> [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/toolchain/sysroot/usr/lib64] ==> [/home/liiing/toolchain/sysroot/usr/lib64]
+        collapse library dir [/home/liiing/toolchain/sysroot/lib] ==> [/home/liiing/toolchain/sysroot/lib]
+        collapse library dir [/home/liiing/toolchain/sysroot/usr/lib] ==> [/home/liiing/toolchain/sysroot/usr/lib]
+        implicit libs: [pthread;rt;m;dl;resolv;gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/Scrt1.o;/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crti.o;/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/liiing/toolchain/sysroot/usr/lib/gcc/x86_64-linux-gnu/15;/home/liiing/toolchain/sysroot/usr/lib64;/home/liiing/toolchain/sysroot/lib/x86_64-linux-gnu;/home/liiing/toolchain/sysroot/lib64;/home/liiing/toolchain/sysroot/usr/lib/x86_64-linux-gnu;/home/liiing/toolchain/sysroot/lib;/home/liiing/toolchain/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:8 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-gOQwNL"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-gOQwNL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-gOQwNL'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_cb0a1
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_cb0a1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cb0a1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cb0a1.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-gOQwNL/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_cb0a1.dir/CheckIncludeFile.c.o -o cmTC_cb0a1   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:9 (check_include_file)"
+    checks:
+      - "Looking for stdio.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-rOVkpz"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-rOVkpz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-rOVkpz'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_f3e30
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_f3e30.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f3e30.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f3e30.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-rOVkpz/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_f3e30.dir/CheckIncludeFile.c.o -o cmTC_f3e30   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:13 (check_include_file)"
+    checks:
+      - "Looking for math.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-Xtw4Fv"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-Xtw4Fv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_MATH_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-Xtw4Fv'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_5d956
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_5d956.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5d956.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5d956.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-Xtw4Fv/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_5d956.dir/CheckIncludeFile.c.o -o cmTC_5d956   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:14 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-ThJlLW"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-ThJlLW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-ThJlLW'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_41463
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_41463.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_41463.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_41463.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-ThJlLW/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_41463.dir/CheckIncludeFile.c.o -o cmTC_41463   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:15 (check_include_file)"
+    checks:
+      - "Looking for errno.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-0eX4c5"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-0eX4c5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_ERRNO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-0eX4c5'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_d3625
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_d3625.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d3625.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d3625.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-0eX4c5/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_d3625.dir/CheckIncludeFile.c.o -o cmTC_d3625   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:16 (check_include_file)"
+    checks:
+      - "Looking for limits.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-c4OmDk"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-c4OmDk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_LIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-c4OmDk'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_1742d
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_1742d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1742d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1742d.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-c4OmDk/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_1742d.dir/CheckIncludeFile.c.o -o cmTC_1742d   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:17 (check_include_file)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-VxFD6T"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-VxFD6T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-VxFD6T'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_1a9da
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_1a9da.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1a9da.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1a9da.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-VxFD6T/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_1a9da.dir/CheckIncludeFile.c.o -o cmTC_1a9da   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:19 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-SaxahM"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-SaxahM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-SaxahM'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_7ae92
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_7ae92.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7ae92.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7ae92.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-SaxahM/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_7ae92.dir/CheckIncludeFile.c.o -o cmTC_7ae92   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "src/CMakeLists.txt:20 (check_include_file)"
+    checks:
+      - "Looking for getopt.h"
+    directories:
+      source: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-fcsV9i"
+      binary: "/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-fcsV9i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-fcsV9i'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_dc9d4
+        [1/2] /home/liiing/work31409/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g -MD -MT CMakeFiles/cmTC_dc9d4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dc9d4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dc9d4.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid32360/build-asan/CMakeFiles/CMakeScratch/TryCompile-fcsV9i/CheckIncludeFile.c
+        clang: warning: -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        clang: warning: -Wl,-rpath-link,/lib/x86_64-linux-gnu: 'linker' input unused [-Wunused-command-line-argument]
+        [2/2] : && /home/liiing/work31409/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g -fsanitize=address,undefined CMakeFiles/cmTC_dc9d4.dir/CheckIncludeFile.c.o -o cmTC_dc9d4   && :
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "src/CMakeLists.txt:25 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/bin/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/sbin/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    found: "/home/liiing/.local/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/CMakeLists.txt:63 (find_library)"
+    mode: "library"
+    variable: "LIBM"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "m"
+    candidate_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/lib/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/lib/"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

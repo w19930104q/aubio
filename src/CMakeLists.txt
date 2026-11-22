@@ -48,6 +48,23 @@ add_optional_dependency (VORBISENC vorbisenc vorbis ogg)
 add_optional_dependency (FLAC flac)
 
 
+# pure-C, dependency-free RIFF/WAVE reader and writer
+option (WITH_WAVREAD "build the built-in RIFF/WAVE reader" ON)
+option (WITH_WAVWRITE "build the built-in RIFF/WAVE writer" ON)
+if (WITH_WAVREAD)
+  target_compile_definitions (aubio PRIVATE HAVE_WAVREAD)
+endif ()
+if (WITH_WAVWRITE)
+  target_compile_definitions (aubio PRIVATE HAVE_WAVWRITE)
+endif ()
+
+# libm (the waf build checks for it explicitly; on glibc < 2.34 it is
+# a separate library that must be linked in)
+find_library (LIBM m)
+if (LIBM)
+  target_link_libraries (aubio PUBLIC ${LIBM})
+endif ()
+
 # generate config.h
 target_compile_definitions (aubio PRIVATE HAVE_CONFIG_H)
 target_include_directories (aubio PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

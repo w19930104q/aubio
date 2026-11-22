@@ -1,5 +1,12 @@
 add_custom_target (create_tests_source python ${CMAKE_CURRENT_SOURCE_DIR}/create_tests_source.py 44100Hz_44100f_sine441_stereo.wav)
 
+# hand-crafted RIFF/WAVE corpus for the wavread conformance test
+set (WAV_FIXTURES_DIR ${CMAKE_CURRENT_BINARY_DIR}/wav-fixtures)
+file (MAKE_DIRECTORY ${WAV_FIXTURES_DIR})
+add_custom_target (create_wav_fixtures ALL
+  COMMAND python -I ${CMAKE_CURRENT_SOURCE_DIR}/src/io/create_wav_fixtures.py ${WAV_FIXTURES_DIR}
+  COMMENT "Generating hand-crafted RIFF/WAVE fixtures")
+
 function (aubio_add_test source)
   # create name
   string (REGEX REPLACE ".*/\([a-z_-]+\).c$" "\\1" name "${source}")
@@ -62,6 +69,22 @@ aubio_add_test (src/io/test-source_apple_audio.c)
 aubio_add_test (src/io/test-source_avcodec.c)
 aubio_add_test (src/io/test-source_sndfile.c)
 aubio_add_test (src/io/test-source_wavread.c)
+if (WITH_WAVREAD)
+  target_compile_definitions (test-source_wavread PRIVATE HAVE_WAVREAD)
+endif ()
+
+if (WITH_WAVREAD)
+  add_executable (test-source_wavread_riff src/io/test-source_wavread_riff.c)
+  add_test (NAME test-source_wavread_riff
+    COMMAND test-source_wavread_riff ${WAV_FIXTURES_DIR})
+  target_link_libraries (test-source_wavread_riff PUBLIC aubio)
+  target_include_directories (test-source_wavread_riff PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+  target_include_directories (test-source_wavread_riff PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../src)
+  target_include_directories (test-source_wavread_riff PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/../src)
+  target_compile_definitions (test-source_wavread_riff PRIVATE HAVE_WAVREAD)
+  target_compile_definitions (test-source_wavread_riff PRIVATE AUBIO_UNSTABLE_API=1)
+  add_dependencies (test-source_wavread_riff create_wav_fixtures)
+endif ()
 aubio_add_test (src/notes/test-notes.c)
 aubio_add_test (src/onset/test-onset.c)
 aubio_add_test (src/onset/test-peakpicker.c)

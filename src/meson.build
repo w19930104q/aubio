@@ -33,6 +33,12 @@ endif
 
 dependencies = []
 
+# libm (on glibc < 2.34 it is a separate library that must be linked in)
+libm = compiler.find_library('m', required : false)
+if libm.found()
+  dependencies += [libm]
+endif
+
 #if compiler.has_header('complex.h')
 #  conf_data.set('HAVE_COMPLEX_H', true)
 #endif

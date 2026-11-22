@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/liiing/feedback/uid32360/build-gcc/cmake_install.cmake",
+		"/home/liiing/feedback/uid32360/build-gcc/src/cmake_install.cmake",
+		"/home/liiing/feedback/uid32360/build-gcc/examples/cmake_install.cmake",
+		"/home/liiing/feedback/uid32360/build-gcc/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

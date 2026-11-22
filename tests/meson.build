@@ -59,6 +59,16 @@ test_file_creation = custom_target ('create test file',
     output: test_file_path,
     command: [find_program('python'), '@INPUT@', '@OUTPUT@'], install: false)
 
+# hand-crafted RIFF/WAVE corpus for the wavread conformance test
+wav_fixtures_stamp = custom_target ('create wav fixtures',
+    input: 'src/io/create_wav_fixtures.py',
+    output: 'wav-fixtures.stamp',
+    command: [find_program('python'), '-I', '-c',
+              'import runpy, sys; script, outdir, stamp = sys.argv[1:4]; sys.argv = [script, outdir]; runpy.run_path(script, run_name="__main__"); open(stamp, "w").close()',
+              '@INPUT@', meson.current_build_dir() / 'wav-fixtures', '@OUTPUT@'],
+    install: false)
+wav_fixtures_dir = meson.current_build_dir() / 'wav-fixtures'
+
 c_args += ['-DAUBIO_TESTS_SOURCE=' + test_file_creation[0].full_path()]
 c_args += ['-DAUBIO_UNSTABLE_API=1']
 
@@ -67,3 +77,12 @@ foreach source : sources
   t = executable (name, source, c_args : c_args, include_directories: '../src', link_with: aubio)
   test (name, t, depends: test_file_creation)
 endforeach
+
+riff_test = executable ('test-source_wavread_riff',
+    'src/io/test-source_wavread_riff.c',
+    c_args : c_args + ['-DHAVE_WAVREAD',
+      '-DAUBIO_WAV_FIXTURES_DIR="' + wav_fixtures_dir + '"'],
+    include_directories: '../src',
+    link_with: aubio)
+test ('test-source_wavread_riff', riff_test,
+    args: [wav_fixtures_dir], depends: wav_fixtures_stamp)
